@@ -80,65 +80,78 @@
                 </svg>
               </button>
               <form class="register-form">
-                <p class="register-tittle">Залиште свої дані, ми вам передзвонимо</p>
+                <p class="register__tittle">Залиште свої дані, ми вам передзвонимо</p>
 
                 <div class="register-group" role="group">
-                  <label class="register-wrap"
-                    ><span class="register-lable">Ім'я</span>
+                  <label class="register__wrap"
+                    ><span class="register__lable">Ім'я</span>
 
-                    <input class="register-field" type="text" name="username" placeholder="" />
-                    <svg class="register-icon" width="18" height="18">
+                    <input
+                      class="register__field register__field--active"
+                      type="text"
+                      name="username"
+                      placeholder=""
+                    />
+                    <svg class="register__icon" width="18" height="18">
                       <use href="./images/svg/symbol-defs4.svg#icon-name"></use>
                     </svg>
                   </label>
-                  <label class="register-wrap"
-                    ><span class="register-lable">Телефон</span>
+                  <label class="register__wrap"
+                    ><span class="register__lable">Телефон</span>
 
                     <input
-                      class="register-field"
+                      class="register__field register__field--active"
                       type="tel"
                       placeholder="  "
                       name="user-phone"
                       id="user-phone"
                     />
-                    <svg class="register-icon" width="18" height="18">
+                    <svg class="register__icon" width="18" height="18">
                       <use href="./images/svg/symbol-defs4.svg#icon-Vector-2"></use>
                     </svg>
                   </label>
-                  <label class="register-wrap"
-                    ><span class="register-lable">Пошта</span>
+                  <label class="register__wrap"
+                    ><span class="register__lable">Пошта</span>
 
-                    <input class="register-field" type="email" name="email" placeholder="" />
-                    <svg class="register-icon" width="18" height="18">
+                    <input
+                      class="register__field register__field--active"
+                      type="email"
+                      name="email"
+                      placeholder="  "
+                    />
+                    <svg class="register__icon" width="18" height="18">
                       <use href="./images/svg/symbol-defs4.svg#icon-email"></use>
                     </svg>
                   </label>
-                  <label class="register-wrap"
-                    ><span class="register-lable">Коментар</span>
+                  <label class="register__wrap"
+                    ><span class="register__lable">Коментар</span>
                     <textarea
-                      class="register-message"
+                      class="register__message register__message--active"
                       name="name"
                       rows="5"
                       placeholder="Введіть текст"
                     ></textarea>
                   </label>
                 </div>
-                <label class="register-aggreemet">
+                <label class="register__aggreemet">
                   <input
-                    class="register-check-box visually-hidden"
+                    class="register__check-box visually-hidden"
                     type="checkbox"
                     name="user-agree"
                   />
-                  <svg class="register-agreamen-icon" width="16" height="16">
+                  <svg class="register__agreamen-icon" width="16" height="16">
                     <use
-                      class="icon-uncheck"
+                      class="register__icon-uncheck"
                       href="./images/svg/symbol-defs4.svg#icon-uncheck"
                     ></use>
-                    <use class="icon-check" href="./images/svg/sprite5.svg#icon-checkbox1"></use>
+                    <use
+                      class="register__icon-check"
+                      href="./images/svg/sprite5.svg#icon-checkbox1"
+                    ></use>
                   </svg>
-                  <span class="register-aggreemet-text"
+                  <span class="register__aggreemet-text"
                     >Погоджуюся з розсилкою та приймаю
-                    <a class="register-aggreemet-link" target="_blank" href="">Умови договору</a>
+                    <a class="register__aggreemet-link" target="_blank" href="">Умови договору</a>
                   </span>
                 </label>
               </form>
@@ -412,7 +425,7 @@
 
       <!-- our customers -->
       <!--  -->
-      <section class="section">
+      <section class="customers section">
         <div class="customers-conteiner conteiner">
           <h3 class="customers__tittle">Постійні клієнти</h3>
           <ul class="customers__list">
@@ -537,14 +550,14 @@
     </footer>
     <script src="./js/modal.js"></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.7/jquery.inputmask.min.js"
-      integrity="sha512-jTgBq4+dMYh73dquskmUFEgMY5mptcbqSw2rmhOZZSJjZbD2wMt0H5nhqWtleVkyBEjmzid5nyERPSNBafG4GQ=="
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
-      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.7/jquery.inputmask.min.js"
+      integrity="sha512-jTgBq4+dMYh73dquskmUFEgMY5mptcbqSw2rmhOZZSJjZbD2wMt0H5nhqWtleVkyBEjmzid5nyERPSNBafG4GQ=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
