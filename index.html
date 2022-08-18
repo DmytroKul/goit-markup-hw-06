@@ -164,7 +164,7 @@
 
       <!--about-->
 
-      <section class="section">
+      <section class="about section">
         <div class="conteiner">
           <h2 class="visually-hidden"></h2>
           <ul class="about__list">
@@ -218,8 +218,8 @@
 
       <!-- Benefits-->
       <!--  -->
-      <section class="section no-padding">
-        <div class="benefits conteiner">
+      <section class="benefits section no-padding">
+        <div class="conteiner">
           <h3 class="benefits__tittle">Чим ми займаємося</h3>
           <ul class="benefits__list">
             <li class="benefits__item">
@@ -478,60 +478,64 @@
 
     <!-- footer -->
     <footer class="footer">
-      <div class="conteiner-footer">
-        <div class="footer-first">
-          <a class="logo-footer" href="/">Web<span class="logo-footer-span">Studio</span> </a>
+      <div class="conteiner__footer">
+        <div class="address__footer">
+          <a class="logo__footer" href="/">Web<span class="logo__footer--light">Studio</span> </a>
           <address class="address">
-            <ul class="contact-footer">
-              <li>
-                <a href="https://goo.gl/maps/E6LMGMojv2yCYR6s5">
+            <ul class="address__list">
+              <li class="adress__item">
+                <a class="adress__link" href="https://goo.gl/maps/E6LMGMojv2yCYR6s5">
                   <span class="address-color">м. Київ, пр-т Лесі Українки, 26</span>
                 </a>
               </li>
-              <li><a href="mailto:info@devstudio.com"> info@devstudio.com</a></li>
-              <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+              <li class="adress__item">
+                <a class="adress__link" href="mailto:info@devstudio.com"> info@devstudio.com</a>
+              </li>
+              <li class="adress__item">
+                <a class="adress__link" href="tel:+380961111111">+38 096 111 11 11</a>
+              </li>
             </ul>
           </address>
         </div>
-        <div class="footer-last">
-          <p class="folow-us">приєднуйтесь</p>
-          <ul class="footer-list-icon">
-            <li>
-              <a href="" class="footer-icon-link">
-                <svg class="footer-icon">
+        <div class="follow">
+          <p class="folow__text">приєднуйтесь</p>
+          <ul class="follow__list">
+            <li class="follow__item">
+              <a href="" class="follow__link follow__link--active">
+                <svg class="follow__icon">
                   <use href="./images/svg/sprite.svg#icon-instagram-2"></use>
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="" class="footer-icon-link">
-                <svg class="footer-icon">
+            <li class="follow__item">
+              <a href="" class="follow__link follow__link--active">
+                <svg class="follow__icon">
                   <use href="./images/svg/sprite.svg#icon-twitter-1"></use>
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="" class="footer-icon-link">
-                <svg class="footer-icon">
+            <li class="follow__item">
+              <a href="" class="follow__link follow__link--active">
+                <svg class="follow__icon">
                   <use href="./images/svg/sprite.svg#icon-facebook-1"></use>
                 </svg>
               </a>
             </li>
-            <li>
-              <a href="" class="footer-icon-link">
-                <svg class="footer-icon">
+            <li class="follow__item">
+              <a href="" class="follow__link follow__link--active">
+                <svg class="follow__icon">
                   <use href="./images/svg/sprite.svg#icon-linkedin-1"></use>
                 </svg>
               </a>
             </li>
           </ul>
         </div>
-        <div>
-          <p class="follow-us-text">Підпишіться на розсилку</p>
-          <div class="footer-icon-btn">
-            <form class="follow__form">
+        <div class="subscribe">
+          <p class="subscribe__text">Підпишіться на розсилку</p>
+          <div class="join">
+            <form class="join__form">
               <input
-                class="input-email"
+                class="join__input"
                 type="email"
                 id="email"
                 pattern=""
@@ -540,10 +544,10 @@
                 required
               />
 
-              <button type="submit" class="btn-footer">
+              <button type="submit" class="btn__footer">
                 <span class="span-follow-footer">Підписатися</span
                 ><svg class="icon-send">
-                  <use href="./images/svg/sprite2.svg#icon-icon-send"></use>
+                  <use href="./images/svg/sprite.svg#icon-icon-send"></use>
                 </svg>
               </button>
             </form>
